@@ -8,4 +8,4 @@ class Student(models.Model):
     gender=models.CharField(max_length=25,blank=False,null=False)
     
     def __str__(self) :
-        return self.name
+        return super().__str__()
